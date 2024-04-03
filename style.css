@@ -1,0 +1,47 @@
+.forBack{
+
+    width: 290px;
+    justify-content: space-between;
+    display: flex;
+}
+i{
+    color: whitesmoke;
+}
+.bar{
+    width: 290px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: grey;
+}
+.insidebar{
+    border-radius: 5px;
+    height: 100%;
+    width:0%;
+    background: greenyellow;
+    position: relative;
+}
+.insidebar:hover::after{
+    background: greenyellow;
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    scale: 2.1;
+    right: 0px;
+    border-radius: 50%;
+}
+.controls{
+    left: 18px;
+    position: fixed;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 55px;
+    justify-content: space-between;
+}
+.playPause{
+    display: flex;
+    width: 290px;
+    justify-content: space-between;
+}
